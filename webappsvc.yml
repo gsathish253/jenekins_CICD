@@ -9,6 +9,6 @@ spec:
     app: myjavawebapp
   type: NodePort
   ports:
-  - nodePort: 30000
+  - nodePort: 8080
       port: 8080
       targetPort: 8080
